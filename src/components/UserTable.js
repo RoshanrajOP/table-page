@@ -29,7 +29,6 @@ const UserTable = () => {
         <div className="user-table-container">
             <h2>Search Table Record:</h2>
 
-            {/* Search Bar */}
             <input
                 type="text"
                 placeholder="Item to filter..."
@@ -38,7 +37,6 @@ const UserTable = () => {
                 className="search-input"
             />
 
-            {/* Table for displaying users */}
             <table className="user-table">
                 <thead>
                     <tr>
